@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -11,4 +12,4 @@ export function MainPage() {
     <Link to={"/cookbook"}>Go to cookbook</Link>
     </>
   )
-}
+} */
