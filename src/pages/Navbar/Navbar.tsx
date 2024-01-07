@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+//Navbar/hlavní stránka
+
 export default function Navbar() {
   return (
     <>
@@ -14,6 +16,12 @@ export default function Navbar() {
           </li>
           <li>
             <Link to={"/programs"}>Programs</Link>
+          </li>
+          <li>
+            <Link to={"/tutorials"}>Tutorials</Link>
+          </li>
+          <li>
+            <Link to={"/usefulextras"}>Useful Extras</Link>
           </li>
         </ul>
       </nav>
