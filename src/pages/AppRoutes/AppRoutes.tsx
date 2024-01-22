@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Cookbook from "../Cookbook/Cookbook";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import Programs from "../Programs/Programs";
 import Tutorials from "../Tutorials/Tutorials";
 import UsefulExtras from "../UsefulExtras/UsefulExtras";
