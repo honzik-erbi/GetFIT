@@ -25,7 +25,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-      <p className="text">Barvy jsou testovací</p>
     </>
   );
 }

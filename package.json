@@ -23,6 +23,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.1.0",
     "@electron-forge/plugin-vite": "^7.1.0",
     "@types/react-dom": "^18.2.18",
+    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "electron": "27.1.2",
@@ -32,6 +33,10 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
     "@types/react": "^18.2.46",
     "electron-squirrel-startup": "^1.0.0",
     "react-router-dom": "^6.21.1"
