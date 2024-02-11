@@ -9,7 +9,7 @@ export default function Tutorials() {
     <>
     <Navbar />
       <h1>Tutorials</h1>
-      <Link to={"/"}>Go back to navbar</Link>
+      <Link to={"/"}>Go back to mainpage</Link>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function UsefulExtras() {
     <>
     <Navbar />
     <h1>Useful Extras</h1>
-    <Link to={"/"}>Go back to navbar</Link>
+    <Link to={"/"}>Go back to mainpage</Link>
     </>
   )
 }

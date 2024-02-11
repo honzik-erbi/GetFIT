@@ -9,7 +9,7 @@ export default function Programs() {
     <>
     <Navbar />
       <h1>Programs</h1>
-      <Link to={"/"}>Go back navbar</Link>
+      <Link to={"/"}>Go back mainpage</Link>
     </>
   );
 }
