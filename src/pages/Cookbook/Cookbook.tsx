@@ -7,10 +7,10 @@ import { Grid } from "@mui/material";
 
 //zde bude kuchařka(všelijaké recepty pro lidi co chtějí něco dělat se svojí postavou[hubnout/nabírat])
 
-export default function Cookbook() {
+export default function Cookbook(props: any) {
   return (
     <>
-      <Navbar />
+      <Navbar selected={props.selected}/>
       <h1>Cookbook</h1>
       <h2>Main dishes</h2>
 

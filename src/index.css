@@ -14,9 +14,7 @@ body {
   gap: 2rem;
 }
 .nav ul {
-  padding: 0.5rem;
   margin: 0;
-  gap: 1rem;
   font-family: "Nunito Sans";
   font-size: 1.2rem;
   font-weight: 500;
@@ -35,14 +33,14 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 0.25rem;
+  padding: 2.5rem 0.75rem;
   user-select: none;
 }
-
+ 
 .nav li:hover {
   background-color: darkgreen;
 }
-
+ 
 .text {
   font-size: 50px;
   text-align: center;
