@@ -12,6 +12,7 @@ export default function Cookbook() {
     <>
       <Navbar />
       <h1>Cookbook</h1>
+      <h2>Main dishes</h2>
 
       <Grid container spacing={0}>
         <Grid xs={3}>
@@ -24,7 +25,7 @@ export default function Cookbook() {
         </Grid>
         <Grid xs>
           <Food
-            headline=""
+            headline="Míchaná vajíčka"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
             mainText={"banger"}
@@ -33,16 +34,16 @@ export default function Cookbook() {
 
         <Grid xs={3}>
           <Food
-            headline=""
+            headline="gag"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
             mainText={"banger"}
           />
         </Grid>
 
-        <Grid xs={2.1}>
+        <Grid xs={2.6}>
           <Food
-            headline=""
+            headline="gaga"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
             mainText={"banger"}
