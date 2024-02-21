@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 .nav {
-  background-color: #2bae66;
+  background-color: #77B6EA;
   color: #fcf6f5;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ body {
 }
  
 .nav li:hover {
-  background-color: darkgreen;
+  background-color: #C4D7F2;
 }
  
 .text {

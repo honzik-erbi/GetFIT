@@ -10,7 +10,7 @@ import { Grid } from "@mui/material";
 export default function Cookbook(props: any) {
   return (
     <>
-      <Navbar selected={props.selected}/>
+      <Navbar selected={props.selected} />
       <h1>Cookbook</h1>
       <h2>Main dishes</h2>
 
@@ -20,7 +20,6 @@ export default function Cookbook(props: any) {
             headline="Kuře s rýží"
             img=""
             description="kuře haha"
-            mainText={"banger"}
           />
         </Grid>
         <Grid xs>
@@ -28,7 +27,6 @@ export default function Cookbook(props: any) {
             headline="Míchaná vajíčka"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
-            mainText={"banger"}
           />
         </Grid>
 
@@ -37,16 +35,13 @@ export default function Cookbook(props: any) {
             headline="gag"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
-            mainText={"banger"}
           />
         </Grid>
-
         <Grid xs={2.6}>
           <Food
             headline="gaga"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
-            mainText={"banger"}
           />
         </Grid>
       </Grid>
