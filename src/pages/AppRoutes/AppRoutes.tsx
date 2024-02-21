@@ -12,9 +12,9 @@ export default function AppRoutes() {
       <Routes>
         <Route path="/" element={<Navbar />} />
         <Route path="/cookbook" element={<Cookbook selected= "cookbook"/>} />
-        <Route path="/programs" element={<Programs />} />
-        <Route path="/tutorials" element={<Tutorials />} />
-        <Route path="/usefulextras" element={<UsefulExtras />} />
+        <Route path="/programs" element={<Programs selected="programs"/>} />
+        <Route path="/tutorials" element={<Tutorials selected="tutorials"/>} />
+        <Route path="/usefulextras" element={<UsefulExtras selected="usefulextras"/>} />
       </Routes>
     </HashRouter>
   );
