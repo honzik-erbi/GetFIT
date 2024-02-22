@@ -6,6 +6,12 @@ import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
 
 //zde bude kuchařka(všelijaké recepty pro lidi co chtějí něco dělat se svojí postavou[hubnout/nabírat])
+    
+
+    // fetch('../../data/food.json')
+    // .then((response) => response.json())
+    // .then((json) => console.log(json));
+
 
 export default function Cookbook(props: any) {
   return (
@@ -17,9 +23,6 @@ export default function Cookbook(props: any) {
       <Grid container spacing={0}>
         <Grid xs={3}>
           <Food
-            headline="Kuře s rýží"
-            img=""
-            description="kuře haha"
           />
         </Grid>
         <Grid xs>
