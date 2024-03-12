@@ -20,12 +20,12 @@ export default function Cookbook(props: any) {
       <h1>Cookbook</h1>
       <h2>Main dishes</h2>
 
-      <Grid container spacing={0}>
-        <Grid xs={3}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={3}>
           <Food
           />
         </Grid>
-        <Grid xs>
+        <Grid item xs={12} md={3}>
           <Food
             headline="Míchaná vajíčka"
             img=""
@@ -33,14 +33,14 @@ export default function Cookbook(props: any) {
           />
         </Grid>
 
-        <Grid xs={3}>
+        <Grid item xs={12} md={3}>
           <Food
             headline="gag"
             img=""
             description="This impressivsdfsdfdsfdsfdsffdsffe paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels,if you like."
           />
         </Grid>
-        <Grid xs={2.6}>
+        <Grid item xs={12} md={3}>
           <Food
             headline="gaga"
             img=""
