@@ -39,6 +39,7 @@
     "@mui/material": "^5.15.9",
     "@types/react": "^18.2.46",
     "electron-squirrel-startup": "^1.0.0",
+    "react-bulma-components": "^4.1.0",
     "react-router-dom": "^6.21.1"
   }
 }

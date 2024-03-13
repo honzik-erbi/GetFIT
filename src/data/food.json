@@ -1,26 +1,22 @@
 [
     {
-        "id": 1,
-        "headline": "Kuře s rýží",
-        "img": "src/img/kurecisryzi.jpg",
-        "description": "Kuřecí maso na provensálských bylinkách s jasmínovou rýží"
+        "h2": "Kuře s rýží",
+        "img": "/kureci.jpg",
+        "p": "Protein: 100g , Carbs: 30g"
     },
     {
-        "id": 2,
-        "headline": "",
-        "img": "",
-        "description": ""
+        "h2": "Kuře s rýží",
+        "img": "/kureci.jpg",
+        "p": "Protein: 100g , Carbs: 30g"
     },
     {
-        "id": 3,
-        "headline": "Kuře s rýží",
-        "img": "src/img/kurecisryzi.jpg",
-        "description": "Kuřecí maso na provensálských bylinkách s jasmínovou rýží"
+        "h2": "Kuře s rýží",
+        "img": "/kureci.jpg",
+        "p": "Protein: 100g , Carbs: 30g"
     },
     {
-        "id": 4,
-        "headline": "Kuře s rýží",
-        "img": "src/img/kurecisryzi.jpg",
-        "description": "Kuřecí maso na provensálských bylinkách s jasmínovou rýží"
+        "h2": "Kuře s rýží",
+        "img": "/kureci.jpg",
+        "p": "Protein: 100g , Carbs: 30g"
     }
 ]

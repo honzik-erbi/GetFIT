@@ -1,13 +1,19 @@
 import React from "react";
+import "../Card/Card.css";
 
-export default function Card() {
-    return(
-        <div className="card">
-            <h2 className="card-headline">Chicken with rice</h2>
-            <img className="card-image" src="https://via.placeholder.com/300" alt="Kuřecí maso s rýží"></img>
-            <p className="card-desc">Protein: 100g
-               Carbs: 30g
-            </p>
-        </div>
-    );
+export default function Card(data: CardType) {
+  console.log(data.h2);
+  return (
+    <div className="card">
+      <img className="card-image" src={data.img} alt={data.h2} />
+      <h2 className="card-headline">{data.h2}</h2>
+      <p className="card-desc">{data.p}</p>
+    </div>
+  );
 }
+
+export type CardType = {
+  h2: string;
+  img: string;
+  p: string;
+};
