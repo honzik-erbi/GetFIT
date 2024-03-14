@@ -5,10 +5,10 @@
     margin: 10px;
     background-color: rgba(225, 225, 225, 0.5);
     max-width:500px;
-    border-radius: "";
+    border-radius:1rem;
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
+    opacity: 0.85;
   }
   .card .card-image {
     max-width: 100%;

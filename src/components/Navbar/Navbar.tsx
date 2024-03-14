@@ -18,10 +18,10 @@ export default function Navbar(props: any) {
             <Link to={"/cookbook"} style={{backgroundColor: selected == 'cookbook' ? '#C4D7F2' : 'auto'}}>Cookbook</Link>
           </li>
           <li>
-            <Link to={"/programs"} style={{backgroundColor: selected == 'programs' ? '#C4D7F2' : 'auto'}}>Programs</Link>
+            <Link to={"/recipes"} style={{backgroundColor: selected == 'recipes' ? '#C4D7F2' : 'auto'}}>Recipes</Link>
           </li>
           <li>
-            <Link to={"/tutorials"} style={{backgroundColor: selected == 'tutorials' ? '#C4D7F2' : 'auto'}}>Tutorials</Link>
+            <Link to={"/programs"} style={{backgroundColor: selected == 'programs' ? '#C4D7F2' : 'auto'}}>Programs</Link>
           </li>
           <li>
             <Link to={"/usefulextras"} style={{backgroundColor: selected == 'usefulextras' ? '#C4D7F2' : 'auto'}}>Useful Extras</Link>
