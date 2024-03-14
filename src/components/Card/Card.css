@@ -13,6 +13,8 @@
   .card .card-image {
     max-width: 100%;
     margin-bottom: 1.6rem;
+    pointer-events: none;
+    user-select: none;
   }
   .card .card-headline {
     font-family: "Nunito Sans";
@@ -24,4 +26,6 @@
   .card .card-desc {
     font-family: "Nunito Sans";
     color: #000080;
+    pointer-events: none;
+    user-select: none;
   }

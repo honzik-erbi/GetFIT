@@ -5,6 +5,7 @@
 }
 body {
   margin: 0;
+  background-color: rgba(221, 221, 221, 0.2);
 }
 .nav {
   background-color: #77b6ea;
@@ -54,9 +55,13 @@ h1 {
   font-weight: 800;
   letter-spacing: -0.04em;
   color: #41627e;
+  pointer-events: none;
+  user-select: none;
 }
 h2 {
   font-size: 2rem;
   font-family: "Nunito Sans";
   font-weight: 500;
+  pointer-events: none;
+  user-select: none;
 }
