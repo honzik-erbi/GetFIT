@@ -2,7 +2,6 @@ import React from "react";
 import "../Card/Card.css";
 
 export default function Card(data: CardType) {
-  console.log(data.h2);
   return (
     <div className="card">
       <img className="card-image" src={data.img} alt={data.h2} />

@@ -21,7 +21,7 @@ export default function Navbar(props: any) {
             <Link to={"/recipes"} style={{backgroundColor: selected == 'recipes' ? '#C4D7F2' : 'auto'}}>Recipes</Link>
           </li>
           <li>
-            <Link to={"/programs"} style={{backgroundColor: selected == 'programs' ? '#C4D7F2' : 'auto'}}>Programs</Link>
+            <Link to={"/exercises"} style={{backgroundColor: selected == 'exercises' ? '#C4D7F2' : 'auto'}}>Exercises</Link>
           </li>
           <li>
             <Link to={"/usefulextras"} style={{backgroundColor: selected == 'usefulextras' ? '#C4D7F2' : 'auto'}}>Useful Extras</Link>

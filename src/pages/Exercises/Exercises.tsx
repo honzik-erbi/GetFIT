@@ -4,11 +4,11 @@ import Navbar from "../../components/Navbar/Navbar";
 
 //zde budou cvičební plány rozdělené do 3 skupin: Beginner/Intermediate/Skilled
 
-export default function Programs(props: any) {
+export default function Exercises(props: any) {
   return (
     <>
     <Navbar selected={props.selected}/>
-      <h1>Programs</h1>
+      <h1>Exercises</h1>
       <Link to={"/"}>Go back mainpage</Link>
     </>
   );

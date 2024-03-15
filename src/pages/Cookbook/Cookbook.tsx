@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Card from "../../components/Card/Card";
-import BreakfastData from "../../data/breakfast.json";
-import LunchData from "../../data/lunch.json";
-import DinnerData from "../../data/dinner.json";
-import { Box, Button, Columns } from "react-bulma-components";
+import BreakfastData from "../../data/Cookbook/breakfast.json";
+import LunchData from "../../data/Cookbook/lunch.json";
+import DinnerData from "../../data/Cookbook/dinner.json";
+import { Box, Columns } from "react-bulma-components";
 
 //zde bude kuchařka(všelijaké recepty pro lidi co chtějí něco dělat se svojí postavou[hubnout/nabírat])
 
