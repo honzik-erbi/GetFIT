@@ -10,9 +10,7 @@ export default function Navbar(props: any) {
   return (
     <>
       <nav className="nav">
-        <a className="site-title">
-          GetFIT
-        </a>
+        <img className="site-logo" src="/Logo.svg"></img>
         <ul>
           <li>
             <Link to={"/cookbook"} style={{backgroundColor: selected == 'cookbook' ? '#C4D7F2' : 'auto'}}>Cookbook</Link>

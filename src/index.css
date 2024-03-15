@@ -55,11 +55,9 @@ body {
   display: flex;
   align-items: stretch;
 }
-.site-title {
-  font-size: 2rem;
-  font-family: "Nunito Sans";
-  font-weight: 800;
-  margin-left: 0.75rem;
+.site-logo{
+  height:200px;
+  width: 200px;
 }
 .nav a {
   color: inherit;
