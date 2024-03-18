@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../Navbar/Navbar.css";
 
 //Navbar/hlavní stránka
 
@@ -10,7 +11,7 @@ export default function Navbar(props: any) {
   return (
     <>
       <nav className="nav">
-        <img className="site-logo" src="/Logo.svg"></img>
+        <a className="site-title"><span style={{color: '#3A4856', fontWeight: 850}}>Get</span><span style={{color: '#FFFFFF', fontWeight: 900}}>FIT</span></a>
         <ul>
           <li>
             <Link to={"/cookbook"} style={{backgroundColor: selected == 'cookbook' ? '#C4D7F2' : 'auto'}}>Cookbook</Link>

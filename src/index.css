@@ -37,42 +37,6 @@ body {
   margin: 0;
   background-color: rgba(221, 221, 221, 0.2);
 }
-.nav {
-  background-color: #77b6ea;
-  color: #fcf6f5;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding: 1 1rem;
-  gap: 1rem;
-}
-.nav ul {
-  margin: 0;
-  font-family: "Nunito Sans";
-  font-size: 1.2rem;
-  font-weight: 500;
-  list-style: none;
-  display: flex;
-  align-items: stretch;
-}
-.site-logo{
-  height:200px;
-  width: 200px;
-}
-.nav a {
-  color: inherit;
-  text-decoration: none;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding: 2.5rem 0.75rem;
-  user-select: none;
-}
-
-.nav li:hover {
-  background-color: #c4d7f2;
-}
-
 .text {
   font-size: 50px;
   text-align: center;
