@@ -1,31 +1,25 @@
-.card {
+.guide {
     border: 1px solid transparent;
     box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
     padding: 20px;
     margin: 10px;
     background-color: rgba(225, 225, 225, 0.5);
-    max-width:500px;
+    width:70%;
     border-radius:1rem;
     display: flex;
     flex-direction: column;
     opacity: 0.85;
   }
-  .card:hover {
-    background-color: lightgray;
-    transition: ease-in 270ms;
-  }
-  .card .card-image {
-    max-width: 100%;
-    margin-bottom: 1.6rem;
-  }
-  .card .card-headline {
+  .guide .guide-headline {
     font-family: "Nunito Sans";
     color: #41627e;
     font-weight: 700;
     letter-spacing: -1.4px;
     font-size: 36px;
   }
-  .card .card-desc {
+  .guide .guide-desc {
     font-family: "Nunito Sans";
     color: #000080;
+    pointer-events: none;
+    user-select: none;
   }

@@ -9,7 +9,6 @@ export default function UsefulExtras(props: any) {
     <>
     <Navbar selected={props.selected}/>
     <h1>Useful Extras</h1>
-    <Link to={"/"}>Go back to mainpage</Link>
     </>
   )
 }

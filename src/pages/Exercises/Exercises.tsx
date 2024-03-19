@@ -9,7 +9,6 @@ export default function Exercises(props: any) {
     <>
     <Navbar selected={props.selected}/>
       <h1>Exercises</h1>
-      <Link to={"/"}>Go back mainpage</Link>
     </>
   );
 }

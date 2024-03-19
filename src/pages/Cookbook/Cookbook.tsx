@@ -55,8 +55,6 @@ export default function Cookbook(props: any) {
         ))}
         </Columns>
       </>
-
-      <Link to={"/"}>Go back to mainpage</Link>
     </>
   );
 }
