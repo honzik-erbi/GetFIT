@@ -22,7 +22,7 @@ export default function Cookbook(props: any) {
         <Columns>
         {BreakfastData.map((element, index) => (
           <Columns.Column>
-          <Card key={index} {...element} />
+          <Card key={index} {...element} id={index}  />
           </Columns.Column>
         ))}
         </Columns>
@@ -36,7 +36,7 @@ export default function Cookbook(props: any) {
         <Columns >
         {LunchData.map((element, index) => (
           <Columns.Column>
-          <Card key={index} {...element} />
+          <Card id={index} key={index} {...element} />
           </Columns.Column>
         ))}
         </Columns>
@@ -50,7 +50,7 @@ export default function Cookbook(props: any) {
         <Columns >
         {DinnerData.map((element, index) => (
           <Columns.Column>
-          <Card key={index} {...element} />
+          <Card id={index} key={index} {...element} />
           </Columns.Column>
         ))}
         </Columns>
