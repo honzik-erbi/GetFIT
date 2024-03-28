@@ -2,9 +2,11 @@ import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import Card from "../../components/Card/Card";
-import BreakfastRecipeData from "../../data/Recipes/breakfast.json";
 import { Box, Columns } from "react-bulma-components";
 import Recipe from "../../components/Recipe/Recipe";
+import LunchRecipeData from "../../data/Recipes/lunch.json";
+import LunchGuideData from "../../data/RecipeGuide/lunch.json";
+import BreakfastRecipeData from "../../data/Recipes/breakfast.json";
 import BreakfastGuideData from "../../data/RecipeGuide/breakfast.json";
 import RecipeGuide from "../../components/RecipeGuide/RecipeGuide";
 
@@ -33,7 +35,7 @@ export default function Recipes(props: any) {
                 return(
                   <>
                     <Columns.Column>
-                      <Recipe key={index} {...element} />
+                      <Recipe key={index } {...element} />
                     </Columns.Column>
                   </>
                 )
@@ -45,6 +47,26 @@ export default function Recipes(props: any) {
           ))}
         </Columns>
       </>
+      {/* <>
+        <Columns>
+          {
+            LunchRecipeData.map((element, index) => {
+              if (index == Number(id)) {
+                return(
+                  <>
+                    <Columns.Column>
+                      <Recipe key={index} {...element} />
+                    </Columns.Column>
+                  </>
+                )
+              }
+            })
+          }
+          {LunchGuideData.map((element, index) => (
+            <RecipeGuide key={index} {...element} />
+          ))}
+        </Columns>
+      </> */}
     </>
   );
 }

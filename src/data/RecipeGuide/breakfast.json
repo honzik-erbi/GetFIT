@@ -1,6 +1,22 @@
 [
     {
-        "h2": "How To Make Scrambled Eggs",
-        "p": "papani mnam mnam ham"
+        "h2": "How to make Scrambled eggs",
+        "p": "Step 1: Whisk the eggs, salt and pepper. Step 2: Melt butter in a non stick pan over medium heat. Step 3: Add egg mixture and wait 5 seconds then start slowly running a rubber spatula or flat edge wooden spoon in long strokes back and forth across the pan, and around the edges. Step 4: After about 30 seconds, start gently folding the eggs over so you have a pile of soft eggs on your pan. Step 5: Prepare your toasts in the toaster and then scoop the eggs out of the pan onto the toasts.",
+        "ingred": "What you need: 4 eggs, 2 slices of whole toast, Butter , Salt and pepper"
+    },
+    {
+        "h2": "How to Make an Avocado toast with eggs",
+        "p": "Step 1: In a bowl, mash the avocado with some chili flakes, salt, and pepper. Step 2: Fry up the eggs to your liking. Step 3: Put the bread in the toaster and when it’s ready, spread the mashed avocado on top and place an egg on each slice. Step 4: Top with more chili flakes and chopped parsley.",
+        "ingred": "What you need: 2 slices of whole toast, 1/2 avocado, Chili flakes + Salt and pepper, 2 eggs, parsley or green onions"
+    },
+    {
+        "h2": "How to make Banana pancakes",
+        "p": "h",
+        "ingred": "h"
+    },
+    {
+        "h2": "How to prepare Overnight oats",
+        "p": "h",
+        "ingred": "h"
     }
 ]

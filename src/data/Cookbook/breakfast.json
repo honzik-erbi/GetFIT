@@ -1,20 +1,24 @@
 [
     {
+        "id": 1,
         "h2": "Scrambled eggs",
         "img": "/eggs.jpg",
         "p": "Calories: 290g , Protein: 19g , Carbs: 21g , Fat: 13g"
     },
     {
+        "id": 2,
         "h2": "Avocado toast with eggs",
         "img": "/eggtoast.jpg",
         "p": "Calories: 465g , Protein: 21g , Carbs: 31g , Fat: 30g"
     },
     {
+        "id": 3,
         "h2": "Banana pancakes",
         "img": "/pancakes.jpg",
         "p": "Calories: 197g , Protein: 13g , Carbs: 34g , Fat: 2g"
     },
     {
+        "id": 4,
         "h2": "Overnight oats",
         "img": "/oats.jpg",
         "p": "Calories: 232g , Protein: 20g , Carbs: 28g , Fat: 9g"
