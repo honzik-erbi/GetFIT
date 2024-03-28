@@ -4,10 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function Card(data: CardType) {
   
-  let navigate = useNavigate()
+  const navigate = useNavigate()
 
   const handleClick = () => {
-    navigate(`/recipes/${data.id}`)
+    navigate(`/recipes/${data.typeData}/${data.id}`)
   }
 
   return (
@@ -24,4 +24,5 @@ export type CardType = {
   img: string;
   p: string;
   id: number;
+  typeData: string;
 };

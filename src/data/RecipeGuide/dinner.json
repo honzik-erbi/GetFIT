@@ -1,22 +1,22 @@
 [
     {
         "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
+        "p": "lorem",
+        "ingred": "h"
     },
     {
         "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
+        "p": "lorem",
+        "ingred": "h"
     },
     {
         "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
+        "p": "lorem",
+        "ingred": "h"
     },
     {
         "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
+        "p": "lorem",
+        "ingred": "h"
     }
 ]

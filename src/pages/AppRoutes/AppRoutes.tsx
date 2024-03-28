@@ -14,7 +14,7 @@ export default function AppRoutes() {
         <Route path="/" element={<Navbar />} />
         <Route path="/cookbook" element={<Cookbook selected= "cookbook"/>} />
         <Route path="/exercises" element={<Exercises selected="exercises"/>} />
-        <Route path={"/recipes/:id"} element={<Recipes selected="recipes"/>} />
+        <Route path={"/recipes/:typeData/:id"} element={<Recipes selected="recipes"/>} />
         <Route path="/usefulextras" element={<UsefulExtras selected="usefulextras"/>} />
       </Routes>
     </HashRouter>
