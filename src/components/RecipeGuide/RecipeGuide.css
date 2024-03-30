@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     opacity: 0.85;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
   }
   .guide .guide-headline {
     font-family: "Nunito Sans";
@@ -30,4 +31,14 @@
     pointer-events: none;
     user-select: none;
     font-size: 22px;
+  }
+  .guide .button {
+    background-color: #41627e;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    margin-top:auto;
+  }
+  a {
+    color: #ffffff;
   }

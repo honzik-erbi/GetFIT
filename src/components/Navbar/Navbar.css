@@ -1,4 +1,3 @@
-
 .nav {
     background-color: #387FAF;
     color: #ffffff;
@@ -31,10 +30,7 @@
     padding: 2.5rem 0.75rem;
     user-select: none;
   }
-  
   .nav li:hover {
     background-color: #c4d7f2;
     transition: ease-in 230ms;
   }
-
-  /* #9EADBD */

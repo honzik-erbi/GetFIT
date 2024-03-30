@@ -44,11 +44,6 @@ export default function Recipes(props: any) {
       </Box>
       <>
         <Columns>
-          {/* {BreakfastRecipeData.map((element, id) => (
-            <Columns.Column>
-              <Recipe key={1} {...element} />
-            </Columns.Column>
-          ))} */}
           {
             recipeData.map((element, index) => {
               if (index == Number(id)) {
@@ -74,26 +69,6 @@ export default function Recipes(props: any) {
           )}
         </Columns>
       </>
-      {/* <>
-        <Columns>
-          {
-            LunchRecipeData.map((element, index) => {
-              if (index == Number(id)) {
-                return(
-                  <>
-                    <Columns.Column>
-                      <Recipe key={index} {...element} />
-                    </Columns.Column>
-                  </>
-                )
-              }
-            })
-          }
-          {LunchGuideData.map((element, index) => (
-            <RecipeGuide key={index} {...element} />
-          ))}
-        </Columns>
-      </> */}
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './RecipeGuide.css'
+import { Link } from "react-router-dom";
 
 export default function RecipeGuide(data: GuideType) {
   return (
@@ -9,6 +10,8 @@ export default function RecipeGuide(data: GuideType) {
       <p className="guide-desc">{data.p}</p>
       <br />
       <p className="guide-ingred">{data.ingred}</p>
+      <br />
+      <Link to={"/cookbook"}><button className="button is-dark">Go back to Cookbook</button></Link>
     </div>
   );
 }
