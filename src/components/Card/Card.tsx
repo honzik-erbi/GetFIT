@@ -11,7 +11,7 @@ export default function Card(data: CardType) {
   }
 
   return (
-    <div onClick={handleClick} className="card" >
+    <div onClick={handleClick} className="card">
       <img className="card-image" src={data.img} alt={data.h2}/>
       <h2 className="card-headline">{data.h2}</h2>
       <p className="card-desc">{data.p}</p>

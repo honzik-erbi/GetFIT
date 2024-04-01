@@ -1,22 +1,22 @@
 [
-    {
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    }
+  {
+    "h2": "lorem",
+    "img": "/kureci.jpg",
+    "p": "lorem"
+  },
+  {
+    "h2": "lorem",
+    "img": "/kureci.jpg",
+    "p": "lorem"
+  },
+  {
+    "h2": "lorem",
+    "img": "/kureci.jpg",
+    "p": "lorem"
+  },
+  {
+    "h2": "lorem",
+    "img": "/kureci.jpg",
+    "p": "lorem"
+  }
 ]

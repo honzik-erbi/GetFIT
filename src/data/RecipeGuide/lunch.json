@@ -1,22 +1,22 @@
 [
-    {
-        "h2":"lorem",
-        "p": "lorem",
-        "ingred": "h"
-    },
-    {
-        "h2":"lorem",
-        "p": "lorem",
-        "ingred": "h"
-    },
-    {
-        "h2":"lorem",
-        "p": "lorem",
-        "ingred": "h"
-    },
-    {
-        "h2":"lorem",
-        "p": "lorem",
-        "ingred": "h"
-    }
+  {
+    "h2": "How to make a Grilled chicken salad wrap",
+    "p": "Step 1: It is a simple salad, just mix every vegetable together and put it on the tortilla. Step 2: Put the meat onto the salad, wrap it up and enjoy!",
+    "ingred": "What you need: 85g lettuce, 85g grilled chicken breast, 30g black beans, 25g tomato, 25g diced onion, 7g tortilla strips, 30g dressing"
+  },
+  {
+    "h2": "How to make a Light lean beef cheeseburger",
+    "p": "Step 1: Season the meat and slice your onion, tomato and lettuce. Step 2: After you seasoned the meat, shape it into a patty and put it onto a pan or rather a grill. Step 3: Cook the burger for approximately 6 minutes on each side, do not flip it more than once! Step 4: Prepare the rest of the burger and then take the patty out and place it onto the prepared bun with the onion, lettuce, tomato and cheese.",
+    "ingred": "What you need: 113g lean ground beef (93% meat), cheddar cheese, lettuce + onion and tomato"
+  },
+  {
+    "h2": "How to make a Tuna Avocado salad",
+    "p": "Step 1: Combine tuna, avocado, tomatoes, spinach, peas, onion and oil in a bowl. Step 2: Sprinkle feta cheese on top and enjoy!",
+    "ingred": "What you need: ½ can water-packed tuna, ½ diced avocado, ¼ cup of halved cherry tomatoes, 1 tablespoon diced red onion, 1 tablespoon extra-virgin olive oil, 2 cups chopped baby spinach, ⅓ cup crumbled feta cheese "
+  },
+  {
+    "h2": "How to make a High protein French toast with Brioche bread",
+    "p": "Step 1: In a shallow bowl combine the egg whites, almond milk, protein powder, cinnamon, nutmeg and whisk until well combined and no chunks of protein powder remain. Step 2: Heat a large pan over medium heat and spray cooking spray on it. Step 3: Place one slice of brioche bread into the mixture and let it soak on both sides, then remove and let any excess drip off before putting it onto the hot pan. Step 4: Cook on both sides for 3-4 minutes until you can see that the french toast is nice and brown. Step 5: Repeat this with the remaining slices of bread. Serve with maple syrup, butter and any fruit you like.",
+    "ingred": "What you need: 4 slices Brioche bread, 1 scoop vanilla/chocolate protein powder, 1/2 cup almond milk, 1/2 cup egg whites, ¼ table spoon ground cinnamon, ¼ table spoon ground nutmeg "
+  }
 ]

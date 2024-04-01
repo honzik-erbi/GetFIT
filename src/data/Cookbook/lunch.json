@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "id": 2,
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "id": 3,
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    },
-    {
-        "id": 4,
-        "h2":"lorem",
-        "img": "/kureci.jpg",
-        "p": "lorem"
-    }
+  {
+    "id": 1,
+    "h2": "Grilled chicken salad wrap",
+    "img": "/chickensalad.jpg",
+    "p": "Calories: 230kcal, Protein: 23g, Carbs: 17g, Fat: 8g"
+  },
+  {
+    "id": 2,
+    "h2": "Light lean beef cheeseburger",
+    "img": "/cheeseburger.jpg",
+    "p": "Calories: 190kcal, Protein: 26g, Carbs: 1g, Fat: 10g"
+  },
+  {
+    "id": 3,
+    "h2": "Tuna Avocado salad with feta cheese",
+    "img": "/tunasalad.jpg",
+    "p": "Calories: 432kcal , Protein: 20g, Carbs: 17g, Fat: 32g"
+  },
+  {
+    "id": 4,
+    "h2": "High protein French toast with Brioche bread",
+    "img": "/frenchtoast.jpg",
+    "p": "Calories: 610kcal, Protein: 40g, Carbs: 58g, Fat: 12g"
+  }
 ]
