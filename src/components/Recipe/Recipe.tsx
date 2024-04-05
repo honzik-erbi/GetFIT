@@ -1,5 +1,5 @@
 import React from "react";
-import './Recipe.css'
+import "./Recipe.css";
 
 export default function Recipe(data: RecipeType) {
   return (
