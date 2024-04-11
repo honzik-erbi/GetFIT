@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Recipe.css";
 
 export default function Recipe(data: RecipeType) {
+
   return (
     <div className="recipe">
       <img className="recipe-image" src={data.img} alt={data.h2} />

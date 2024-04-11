@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Card/Card.css";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -6,6 +6,7 @@ export default function Card(data: CardType) {
   const navigate = useNavigate();
 
   const handleClick = () => {
+    console.log(data.typeData, data.id)
     navigate(`/recipes/${data.typeData}/${data.id}`);
   };
 

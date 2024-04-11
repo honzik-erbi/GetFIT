@@ -50,7 +50,7 @@ export default function Cookbook(props: any) {
         <Columns >
         {DinnerData.map((element, index) => (
           <Columns.Column>
-          <Card typeData={"dinner"} key={index} {...element} />
+          <Card typeData={"dinner"} id={index} key={index} {...element} />
           </Columns.Column>
         ))}
         </Columns>
