@@ -33,8 +33,6 @@ export default function Recipes(props: any) {
       setRecipeData(DinnerRecipeData);
       setGuideData(DinnerGuideData);
     }
-    console.log(id);
-    
   }, []);
 
   return (

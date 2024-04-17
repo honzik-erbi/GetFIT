@@ -6,7 +6,6 @@ export default function Card(data: CardType) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    console.log(data.typeData, data.id)
     navigate(`/recipes/${data.typeData}/${data.id}`);
   };
 
