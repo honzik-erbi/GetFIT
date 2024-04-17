@@ -1,0 +1,68 @@
+[
+    {
+        "name": "back",
+        "exercises": [
+          {
+            "name": "asdfasd"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      },
+      {
+        "name": "biceps",
+        "exercises": [
+          {
+            "name": "deadlift"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      },
+      {
+        "name": "chest",
+        "exercises": [
+          {
+            "name": "deadlift"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      },
+      {
+        "name": "legs",
+        "exercises": [
+          {
+            "name": "deadlift"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      },
+      {
+        "name": "shoulders",
+        "exercises": [
+          {
+            "name": "deadlift"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      },
+      {
+        "name": "triceps",
+        "exercises": [
+          {
+            "name": "deadlift"
+          },
+          {
+            "name": "pull-ups"
+          }
+        ]
+      }
+]
