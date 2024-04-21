@@ -1,12 +1,41 @@
 [
     {
+        "name": "shoulders",
+        "exercises": [
+          {
+            "h2": "Lateral Raise",
+            "img": "/lateralraise.gif",
+            "p": "Keeping your torso stationary, lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to lift them until they are at shoulder level. Pause for a second at the top of the movement, then slowly lower the weights back down to the starting position. Repeat this movement for the desired number of repetitions. Remember to keep your spine neutral and your movements controlled throughout the exercise, avoiding any swinging or jerking."
+          },
+          {
+            "h2": "Dumbbell Shoulder Press",
+            "img": "/shoulderpress.gif",
+            "p": "Keep your back pressed firmly against the bench and your feet flat on the floor, then push the dumbbells up until your arms are fully extended, but do not lock your elbows. Hold in this position for a moment, make sure to keep your core engaged and your shoulders down. Slowly lower the dumbbells back to the starting position at shoulder level, ensure that you control the movement rather than letting gravity help you. Repeat this movement for your desired number of repetitions, maintaining proper form throughout."
+          },
+          {
+            "h2": "Rear Delt Shoulder Row",
+            "img": "/reardelt.gif",
+            "p": "Slightly bend your knees and hinge at the waist so your torso is almost parallel to the floor, never forget to keep your back straight. Extend your arms so that they hang directly below your shoulders. Then slowly lift the weights to your side while keeping your arms slightly bent, squeezing your shoulder blades together at the top of the movement. Lower the weights back down to the starting position in a controlled motion, ensure not to let gravity do the work for you, and repeat for the desired number of repetitions."
+          }
+        ]
+      },
+      {
         "name": "back",
         "exercises": [
           {
-            "name": "asdfasd"
+            "h2": "",
+            "img": "",
+            "p": ""
           },
           {
-            "name": "pull-ups"
+            "h2": "",
+            "img": "",
+            "p": ""
+          },
+          {
+            "h2": "",
+            "img": "",
+            "p": ""
           }
         ]
       },
@@ -14,43 +43,19 @@
         "name": "biceps",
         "exercises": [
           {
-            "name": "deadlift"
+            "h2": "",
+            "img": "",
+            "p": ""
           },
           {
-            "name": "pull-ups"
-          }
-        ]
-      },
-      {
-        "name": "chest",
-        "exercises": [
-          {
-            "name": "deadlift"
+            "h2": "",
+            "img": "",
+            "p": ""
           },
           {
-            "name": "pull-ups"
-          }
-        ]
-      },
-      {
-        "name": "legs",
-        "exercises": [
-          {
-            "name": "deadlift"
-          },
-          {
-            "name": "pull-ups"
-          }
-        ]
-      },
-      {
-        "name": "shoulders",
-        "exercises": [
-          {
-            "name": "deadlift"
-          },
-          {
-            "name": "pull-ups"
+            "h2": "",
+            "img": "",
+            "p": ""
           }
         ]
       },
@@ -58,10 +63,59 @@
         "name": "triceps",
         "exercises": [
           {
-            "name": "deadlift"
+            "h2": "",
+            "img": "",
+            "p": ""
           },
           {
-            "name": "pull-ups"
+            "h2": "",
+            "img": "",
+            "p": ""
+          },
+          {
+            "h2": "",
+            "img": "",
+            "p": ""
+          }
+        ]
+      },
+      {
+        "name": "chest",
+        "exercises": [
+          {
+            "h2": "Dumbbell Bench Press",
+            "img": "/dbpress.gif",
+            "p": "Lie back on the bench and bring the dumbbells to the sides of your chest with your elbows at a 90-degree angle. Then push the dumbbells up using your chest muscles, keeping your palms facing each other, until your arms are fully extended above your chest. Pause for a moment at the top of the movement and squeeze your chest, then slowly lower the dumbbells back down to the sides of your chest. Repeat this movement for the desired number of repetitions, and ensure to keep your movements slow and controlled."
+          },
+          {
+            "h2": "Dumbbell Chest Fly",
+            "img": "/dbfly.gif",
+            "p": "Hold the dumbbells directly above your chest, remember to keep your palms facing each other and elbows slightly bent. Slowly lower the dumbbells out to your sides, keeping the slight bend in your elbows, until you feel a stretch in your chest. When you feel the stretch, use your chest muscles to lift the dumbbells back up to the starting position, following the same motion path. Repeat this movement for the desired number of repetitions, and ensure to keep your movements slow and controlled throughout the exercise."
+          },
+          {
+            "h2": "Chest Dip",
+            "img": "/chestdip.gif",
+            "p": "Lean your body forward to put emphasis on the chest muscles and bend your knees, crossing your ankles behind you to maintain balance. Slowly lower your body by bending your elbows until you reach a point where your elbows are at a 90-degree angle and you feel a stretch in your chest. Pause for a moment at the bottom of the movement, then push yourself back up to the starting position, extend your arms fully but without locking your elbows. Repeat this process for the desired number of repetitions, and ensure to keep your body leaned forward throughout the exercise to focus on the chest muscles."
+          }
+        ]
+      },
+      {
+        "name": "legs",
+        "exercises": [
+          {
+            "h2": "",
+            "img": "",
+            "p": ""
+          },
+          {
+            "h2": "",
+            "img": "",
+            "p": ""
+          },
+          {
+            "h2": "",
+            "img": "",
+            "p": ""
           }
         ]
       }

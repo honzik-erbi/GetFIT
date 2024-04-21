@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import { Box, Card, Columns } from "react-bulma-components";
 import exerciseData from "../../data/Exercises/exercises.json";
+import ExCard from "../../components/ExerciseCard/ExerciseCard";
 
 export default function Exercises(props: any) {
 
@@ -12,10 +13,6 @@ export default function Exercises(props: any) {
     setSelected(e.target.value)
     for (const ops of exerciseData) {
       if (e.target.value == ops.name) {
-        //  ops.exercises.map(element => {
-        //    console.log(element.name)
-        // })
-        // setSelectedData(ops.exercises)
         console.log(ops.exercises);
         setSelectedData(ops.exercises)
         return
@@ -75,16 +72,18 @@ export default function Exercises(props: any) {
       </div>
       {
         selected != "root" 
-        ? selectedData.map((element: { name: string}) => {
+        ? selectedData.map((element: {h2: string; img: string; p: string;}) => {
           console.log(element)
           return(
-            <p>{element.name}</p>
+            <ExCard h2={element.h2} img={element.img} p={element.p}/>
           )
         })
         : (
           selectedData.map((el: any) => {
             return(
-              <p>{el.name}</p>
+              <>
+              <ExCard h2={el.h2} img={el.img} p={el.p}/>
+              </>
             )
           })
         )
