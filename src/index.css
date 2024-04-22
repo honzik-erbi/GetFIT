@@ -58,3 +58,9 @@ h2 {
   pointer-events: none;
   user-select: none;
 }
+
+.exercise-card-container {
+  align-content: center ;
+  display: flex;
+  flex-direction: column;
+}

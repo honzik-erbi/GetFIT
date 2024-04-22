@@ -75,7 +75,9 @@ export default function Exercises(props: any) {
         ? selectedData.map((element: {h2: string; img: string; p: string;}) => {
           console.log(element)
           return(
+            <div className="exercise-card-container">
             <ExCard h2={element.h2} img={element.img} p={element.p}/>
+            </div>
           )
         })
         : (

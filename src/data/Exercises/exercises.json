@@ -23,19 +23,19 @@
         "name": "back",
         "exercises": [
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Cable Pulldown",
+            "img": "/latpulldown.gif",
+            "p": "Pick the bar up with your hands slightly wider than shoulder-width apart, palms facing forward. Let the bar down towards your upper chest in a controlled motion while keeping your back straight, focusing on squeezing your shoulder blades together. Hold this position for a moment, feeling the contraction in your back muscles. Then slowly release the bar back to the starting position, ensuring a controlled movement to fully engage your muscles."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Straight Back Seated Row",
+            "img": "/seatedrows.gif",
+            "p": "Grasp the handles with an overhand grip and sit upright, keeping your back straight and shoulders down. Pull the handles towards your belly button and keep your elbows close to your body and contract your shoulder blades together. Pause for a moment when the handles are close to your torso, then slowly extend your arms back to the starting position. Repeat this motion for the desired number of repetitions and always ensure to maintain a straight back and controlled movement throughout the exercise."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Barbell Shrug",
+            "img": "/barbellshrug.gif",
+            "p": "Keep your arms extended fully so you allow the barbell to hang in front of your thighs. Lift your shoulders up towards your ears as high as you can, without bending your elbows or moving the barbell with your hands, focusing on the squeeze in your traps. Hold the contraction for a second at the top of the movement. Slowly lower your shoulders back to the starting position, ensuring a controlled movement and not letting the weights simply drop back down."
           }
         ]
       },
@@ -43,19 +43,19 @@
         "name": "biceps",
         "exercises": [
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Incline Biceps Curl",
+            "img": "/inclinecurls.gif",
+            "p": "Keep your elbows close to your torso and your palms facing each other, this is your starting position. Then, while keeping your upper arms in place, curl the weights while squeezing your biceps as you breathe out. Your palms should go towards your shoulders. Continue the movement until your biceps are fully contracted and the dumbbells are almost touching your shoulder. Pause for a second as you squeeze your biceps. Finally, in a slow controlled motion bring the dumbbells back to the starting position as your breathe in, ensure that you maintain full control of the weights."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Standing Bicep Curl",
+            "img": "/standingcurls.gif",
+            "p": "Keep your elbows close to your body, then slowly lift one dumbbell towards your shoulder, squeezing your bicep as you do so, while keeping the other arm in place just holding onto the dumbbell. Hold for a moment, then slowly lower the dumbbell back to the starting position. Repeat the same movement with the other arm, keeping the first arm in place and just holding the dumbbell this time. Do not forget to breathe correctly and brace your core. Continue to alternate between each arm for the desired number of repetitions."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Standing Hammer Curl",
+            "img": "/hammercurls.gif",
+            "p": "Keep the upper arms in place, curl the weights while squeezing your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps. Inhale and slowly begin to lower the dumbbells back to the starting position. Repeat this movement for the desired amount of repetitions. Remember to keep your elbows close to your body at all times and do not use your back or shoulders to lift the weights, let only your biceps do all the work."
           }
         ]
       },
@@ -63,19 +63,19 @@
         "name": "triceps",
         "exercises": [
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Cable Tricep Pushdown",
+            "img": "/triceppushdown.gif",
+            "p": "Hold the bar with your palms facing down, hands shoulder-width apart, and position your feet shoulder-width apart as well. Keep your elbows close to your torso and bend them to create a 90-degree angle, this is your starting position. Push the bar down by extending your elbows and squeezing your triceps at the bottom of the movement. Slowly return to the starting position, make sure to control the movement and not let the weight stack touch between reps."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Bench Dip",
+            "img": "/benchdip.gif",
+            "p": "Push up through your hands to lift your hips off the floor, always keeping your chest up and your back straight. Slowly lower your body by bending your elbows until they are at about a 90-degree angle, then push your body back up to the starting position. Make sure to keep your hips close to your hands during the movement to focus the triceps effectively. Repeat this motion for the desired number of repetitions, ensuring to maintain proper form throughout the exercise."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Seated Tricep Extension",
+            "img": "/tricepextension.gif",
+            "p": "Hold the dumbbell at shoulder height with your palms facing forward, and your elbows bent at a 90-degree angle. Slowly extend your arms straight up towards the ceiling, making sure to keep your elbows in place and close to your head. Hold this position for a moment to properly squeeze the triceps, feeling the tension in your arms. Then, slowly lower the dumbbells back down to the starting position, ensure you maintain control throughout the movement. Repeat this process for the desired number of repetitions."
           }
         ]
       },
@@ -103,19 +103,19 @@
         "name": "legs",
         "exercises": [
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Barbell Squat",
+            "img": "/barbellsquat.gif",
+            "p": "Put the barbell on your upper traps and shoulders, then place your feet shoulder-width apart, toes should be slightly pointed outwards, this will be your starting position. Begin the movement by bending your knees and flexingy your hips, sitting back with your hips while keeping your chest up and your back straight. Continue down as far as flexibility allows, ideally until your thighs are parallel to the floor, then push up through your heels to return to the starting position. Repeat the exercise for the desired amount of repetitions, always ensure to maintain form and control throughout each movement."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Lying Leg Curl",
+            "img": "/lyinglegcurl.gif",
+            "p": "Position your legs under the pad, making sure the lever aligns with the back of your ankles. Hold onto the side handles of the machine for stability, keeping your body flat on the bench. Exhale and curl your legs upwards as far as you can without lifting your upper legs from the pad, also keep your toes pointed and your movements smooth and controlled. Inhale as you slowly return your legs to the starting position, always keep in mind to ensure a full range of motion and avoiding any jerky movements."
           },
           {
-            "h2": "",
-            "img": "",
-            "p": ""
+            "h2": "Bulgarian Split Squat",
+            "img": "/bulgariansquats.gif",
+            "p": "Keep your chest up and your core engaged as you go down into a lunge position, bending both knees to about a 90-degree angle, while ensuring your right knee does not go past your right foot. Push through your right heel to lift your body back up to the starting position, keeping your left foot on the bench or box. Repeat this movement for the desired number of repetitions, then switch legs and perform the same steps. Remember to maintain good posture throughout the exercise, keeping your back straight and your eyes forward."
           }
         ]
       }
