@@ -1,0 +1,28 @@
+.extrascard {
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(225, 225, 225, 0.5);
+    max-width: 500px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.85;
+  }
+  .extrascard .extrascard-image {
+    max-width: 100%;
+    margin-bottom: 1.6rem;
+  }
+  .extrascard .extrascard-headline {
+    font-family: "Nunito Sans";
+    color: #41627e;
+    font-weight: 700;
+    letter-spacing: -1.4px;
+    font-size: 36px;
+  }
+  .extrascard .extrascard-desc {
+    font-family: "Nunito Sans";
+    color: #000080;
+  }
+  

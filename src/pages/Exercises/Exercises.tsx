@@ -70,14 +70,13 @@ export default function Exercises(props: any) {
           <option value="legs">Legs</option>
         </select>
       </div>
+      <div className="exercise-card-container">
       {
         selected != "root" 
         ? selectedData.map((element: {h2: string; img: string; p: string;}) => {
           console.log(element)
           return(
-            <div className="exercise-card-container">
             <ExCard h2={element.h2} img={element.img} p={element.p}/>
-            </div>
           )
         })
         : (
@@ -90,6 +89,9 @@ export default function Exercises(props: any) {
           })
         )
       }
+      </div>
     </>
   );
 }
+
+// all GIFs were provided from this site: https://www.lyfta.app/exercises
