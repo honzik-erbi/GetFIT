@@ -8,7 +8,7 @@
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    opacity: 0.85;
+    opacity: 0.9;
   }
   .extrascard .extrascard-image {
     max-width: 100%;
@@ -24,5 +24,6 @@
   .extrascard .extrascard-desc {
     font-family: "Nunito Sans";
     color: #000080;
+    text-align: left;
   }
   

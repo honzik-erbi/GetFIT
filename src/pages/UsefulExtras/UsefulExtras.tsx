@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import { Box, Columns } from "react-bulma-components";
 import ExtrasCard from "../../components/ExtrasCard/ExtrasCard";
-import extrasData from "../../data/UsefulExtras/extras.json"
+import equipmentData from "../../data/UsefulExtras/equipment.json"
+import supplementData from "../../data/UsefulExtras/supplements.json"
 
 
 //zde budou užitečné doplňky jako například doporučené proteiny, trhačky/bandáže a jiné
@@ -17,7 +18,25 @@ export default function UsefulExtras(props: any) {
     </Box>
     <>
       <Columns>
-        {extrasData.map((element, index) => {
+        {equipmentData.map((element, index) => {
+            return (
+              <>
+                <Columns.Column>
+                  <ExtrasCard key={index} {...element} />
+                </Columns.Column>
+              </>
+            );
+        })}
+      </Columns>
+    </>
+    <>
+    <Box>
+      <h1>Supplements</h1>
+    </Box>
+    </>
+    <>
+      <Columns>
+        {supplementData.map((element, index) => {
             return (
               <>
                 <Columns.Column>
@@ -31,3 +50,4 @@ export default function UsefulExtras(props: any) {
   </>
 );
 }
+// an image was taken from this website: https://gymbeam.cz/

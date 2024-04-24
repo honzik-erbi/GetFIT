@@ -1,0 +1,22 @@
+[
+    {
+      "h2": "Protein Powder",
+      "img": "/protein.png",
+      "p": "Protein powder is a basic supplement made mainly from whey. It helps you reach your protein goal for the day when you do not have much time, you just put a scoop in a shaker with some water and then drink it."
+    },
+    {
+      "h2": "Creatine",
+      "img": "/creatine.jpg",
+      "p": "Creatine is a highly researched supplement that is 100% safe for use for everybody. Creatine helps your muscles get fuller and stronger, because it allows for higher water retention."
+    },
+    {
+      "h2": "Magnesium",
+      "img": "/magnesium.jpg",
+      "p": "Magnesium is a basic supplement not only for people that work out but even for athletes in general. Magnesium helps in reducing the chance of getting muscle cramps and also reduces fatigue and tiredness."
+    },
+    {
+      "h2": "Preworkout",
+      "img": "/preworkout.png",
+      "p": "Preworkout is not an essential supplement, but it is useful for easily pumping the blood into your muscles and for better concentration/mind-muscle connection during the workout."
+    }
+  ]
