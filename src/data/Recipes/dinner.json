@@ -1,22 +1,22 @@
 [
   {
-    "h2": "lorem",
-    "img": "/kureci.jpg",
-    "p": "lorem"
+    "h2": "Beef with rice and broccoli",
+    "img": "/beefrice.jpg",
+    "p": "Calories: 345kcal, Protein: 27g, Carbs: 14g, Fat: 20g"
   },
   {
-    "h2": "lorem",
-    "img": "/kureci.jpg",
-    "p": "lorem"
+    "h2": "Spicy Chicken with sweet potatoes",
+    "img": "/spicychicken.jpg",
+    "p": "Calories: 237kcal, Protein: 28g, Carbs: 16g, Fat: 7g"
   },
   {
-    "h2": "lorem",
-    "img": "/kureci.jpg",
-    "p": "lorem"
+    "h2": "Sesame Chicken with broccoli",
+    "img": "/chickenbroccoli.jpg",
+    "p": "Calories: 267kcal, Protein: 36g, Carbs: 8g, Fat: 10g"
   },
   {
-    "h2": "lorem",
-    "img": "/kureci.jpg",
-    "p": "lorem"
+    "h2": "Simple Light Chicken Caesar salad",
+    "img": "/caesarsalad.jpg",
+    "p": "Calories: 305kcal, Protein: 23g, Carbs: 7g, Fat: 20g"
   }
 ]
