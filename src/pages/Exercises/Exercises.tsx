@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import { Box, Card, Columns } from "react-bulma-components";
+import { Box } from "react-bulma-components";
 import exerciseData from "../../data/Exercises/exercises.json";
 import ExCard from "../../components/ExerciseCard/ExerciseCard";
 
@@ -13,7 +13,6 @@ export default function Exercises(props: any) {
     setSelected(e.target.value)
     for (const ops of exerciseData) {
       if (e.target.value == ops.name) {
-        console.log(ops.exercises);
         setSelectedData(ops.exercises)
         return
       }
@@ -23,7 +22,6 @@ export default function Exercises(props: any) {
       let newArr = [] as any
       let count = 0 as number
       for (let i = 0; i < exerciseData.length; i++) {
-        console.log(exerciseData[i]);
         for (let j = 0; j < exerciseData[i].exercises.length; j++) {
           newArr[count] = exerciseData[i].exercises[j]
           count = count + 1
@@ -40,7 +38,6 @@ export default function Exercises(props: any) {
     let newArr = [] as any
     let count = 0 as number
     for (let i = 0; i < exerciseData.length; i++) {
-      console.log(exerciseData[i]);
       for (let j = 0; j < exerciseData[i].exercises.length; j++) {
         newArr[count] = exerciseData[i].exercises[j]
         count = count + 1
@@ -74,16 +71,15 @@ export default function Exercises(props: any) {
       {
         selected != "root" 
         ? selectedData.map((element: {h2: string; img: string; p: string;}) => {
-          console.log(element)
           return(
             <ExCard h2={element.h2} img={element.img} p={element.p}/>
           )
         })
         : (
-          selectedData.map((el: any) => {
+          selectedData.map((element: any) => {
             return(
               <>
-              <ExCard h2={el.h2} img={el.img} p={el.p}/>
+              <ExCard h2={element.h2} img={element.img} p={element.p}/>
               </>
             )
           })
@@ -94,4 +90,4 @@ export default function Exercises(props: any) {
   );
 }
 
-// all GIFs were provided from this site: https://www.lyfta.app/exercises
+// all GIFs were borrowed from this site: https://www.lyfta.app/exercises ,

@@ -22,7 +22,7 @@ export default function Cookbook(props: any) {
         <Columns>
         {BreakfastData.map((element, index) => (
           <Columns.Column>
-          <Card typeData={"breakfast"} key={index} {...element} id={index}  />
+          <Card typeData={"breakfast"} id={index}key={index} {...element} />
           </Columns.Column>
         ))}
         </Columns>

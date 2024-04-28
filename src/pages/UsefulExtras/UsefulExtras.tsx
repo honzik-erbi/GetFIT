@@ -50,4 +50,4 @@ export default function UsefulExtras(props: any) {
   </>
 );
 }
-// an image was taken from this website: https://gymbeam.cz/
+// images borrowed from this website: https://gymbeam.cz/ , https://www.goodlift.cz/cs/

@@ -69,4 +69,4 @@ export default function Recipes(props: any) {
   );
 }
 
-//images taken from: https://pinchofyum.com/ , https://www.garlicandzest.com/ , https://food52.com/ , https://icookfortwo.com/
+//images borrowed from: https://pinchofyum.com/ , https://www.garlicandzest.com/ , https://food52.com/ , https://icookfortwo.com/

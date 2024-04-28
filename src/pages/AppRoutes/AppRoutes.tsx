@@ -6,12 +6,13 @@ import Tutorials from "../Recipes/Recipes";
 import UsefulExtras from "../UsefulExtras/UsefulExtras";
 import Recipes from "../Recipes/Recipes";
 import Exercises from "../Exercises/Exercises";
+import HomePage from "../HomePage/HomePage";
 
 export default function AppRoutes() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Navbar />} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/cookbook" element={<Cookbook selected= "cookbook"/>} />
         <Route path="/exercises" element={<Exercises selected="exercises"/>} />
         <Route path={"/recipes/:typeData/:id"} element={<Recipes selected="recipes"/>} />

@@ -25,3 +25,4 @@ export type CardType = {
   id: number;
   typeData: string;
 };
+  
